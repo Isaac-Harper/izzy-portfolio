@@ -1,7 +1,7 @@
 <script>
-	import NavButton from './NavButton.svelte';
-	import BigStar from './BigStar.svelte';
-	import LittleStar from './LittleStar.svelte';
+	import NavButton from '$lib/NavButton.svelte';
+	import Star from '$lib/Star.svelte';
+	import LittleStar from '$lib/LittleStar.svelte';
 </script>
 
 <div class="header">
@@ -10,8 +10,7 @@
 	</a>
 	<div class="space" />
 	<div class="star">
-		<BigStar />
-		<LittleStar />
+		<Star />
 	</div>
 </div>
 
