@@ -20,6 +20,8 @@
 		border-right: 1em solid transparent;
 		border-bottom: 0.7em solid var(--star-color);
 		border-left: 1em solid transparent;
+		
+		transform: rotate(35deg);
 	}
 	.five-pointed-star:before {
 		border-bottom: 0.8em solid var(--star-color);
@@ -32,7 +34,7 @@
 		left: -0.65em;
 		display: block;
 		content: '';
-		transform: rotate(35deg);
+		transform: rotate(-35deg);
 	}
 	.five-pointed-star:after {
 		position: absolute;
