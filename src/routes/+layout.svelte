@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<link rel="stylesheet" href="src/lib/reset.css" />
+	<link rel="stylesheet" href="/css/reset.css" />
 </svelte:head>
 
 <Header />
