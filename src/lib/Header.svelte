@@ -1,7 +1,6 @@
 <script>
 	import NavButton from '$lib/NavButton.svelte';
 	import Star from '$lib/Star.svelte';
-	import LittleStar from '$lib/LittleStar.svelte';
 </script>
 
 <div class="header">
@@ -18,7 +17,7 @@
 	.header {
 		position: sticky;
 		top: 0;
-		
+
 		z-index: 10;
 
 		display: flex;

@@ -1,13 +1,15 @@
 <script>
 	import Star from '$lib/Star.svelte';
+
+	export let titles = ['one', 'two', 'three', 'four'];
+	export let links = ['/', '/', '/', '/'];
 </script>
 
 <div class="center">
 	<div class="interests">
-		<a href="/Works" class="box"> art making </a>
-		<a href="/Teaching" class="box"> teaching </a>
-		<a href="/About" class="box"> about me // resume </a>
-		<a href="/Contact" class="box"> contact me </a>
+		{#each titles as title, i}
+			<a href={links[i]} class="box">{title}</a>
+		{/each}
 	</div>
 
 	<Star />
@@ -27,10 +29,10 @@
 
 		justify-items: center;
 		align-items: center;
-		gap: 1rem;
+		gap: 2rem;
 		padding: 2rem;
 		width: 100%;
-		max-width: 60rem;
+		max-width: 50rem;
 
 		flex: 1;
 	}
@@ -46,6 +48,7 @@
 
 		text-decoration: none;
 		color: black;
+		white-space: pre-line;
 	}
 
 	.box:visited {

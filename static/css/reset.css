@@ -5,17 +5,25 @@
 
 @font-face {
   font-family: newTelegraph;
-  src: url("fonts/new_telegraph/New Telegraph.ttf");
+  src: url("/fonts/new_telegraph/New Telegraph.ttf");
 }
 
 @font-face {
   font-family: newTelegraphBold;
-  src: url("fonts/new_telegraph/New Telegraph Bold.ttf");
+  src: url("/fonts/new_telegraph/New Telegraph Bold.ttf");
 }
 
+:root {
+  --background-hue: 300;
+  --background-sat: 20%;
+  --background-lig: 70%;
+
+
+}
 
 *, *::before, *::after {
   box-sizing: border-box;
+
   
 }
 * {
@@ -25,7 +33,7 @@
 }
 html, body {
   height: 100%;
-  background-color: #F4EAE7;
+  
   font-family: newTelegraphBold;
 }
 body {
