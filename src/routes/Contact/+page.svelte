@@ -1,3 +1,11 @@
+<svelte:head>
+	<style>
+		body {
+			background: var(--background-contact);
+		}
+	</style>
+</svelte:head>
+
 <div class="box">
 	<div class="container">
 		<div class="contact">

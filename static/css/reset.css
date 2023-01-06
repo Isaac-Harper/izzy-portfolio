@@ -14,9 +14,16 @@
 }
 
 :root {
-  --background-hue: 300;
+  --background-hue: 0;
+  
   --background-sat: 20%;
   --background-lig: 70%;
+
+  --background-home: hsl(0, var(--background-sat), var(--background-lig));
+  --background-works: hsl(75, var(--background-sat), var(--background-lig));
+  --background-teaching: hsl(150, var(--background-sat), var(--background-lig));
+  --background-about: hsl(225, var(--background-sat), var(--background-lig));
+  --background-contact:hsl( 300, var(--background-sat), var(--background-lig));
 
 
 }
@@ -31,6 +38,9 @@
   padding: 0;
   z-index: 1;
 }
+
+
+
 html, body {
   height: 100%;
   

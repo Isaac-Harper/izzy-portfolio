@@ -2,7 +2,14 @@
 	import Star from '$lib/Star.svelte';
 </script>
 
-<img class="background" src="/artwork/CactusAnts.jpeg" alt="bench" />
+<svelte:head>
+	<style>
+		body {
+			background: var(--background-teaching);
+		}
+	</style>
+</svelte:head>
+<img class="background" src="/artwork/1.png" alt="bench" />
 
 <h2>Statement about teaching</h2>
 
@@ -27,6 +34,7 @@
 		height: 100%;
 		width: 100%;
 		background-color: black;
+		max-width: 70rem;
 	}
 
 	.center {

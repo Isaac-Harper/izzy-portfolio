@@ -8,7 +8,17 @@
 </svelte:head>
 
 <Header />
-
-<slot />
+<div class="container">
+	<slot />
+</div>
 
 <Footer />
+
+<style>
+	.container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+</style>

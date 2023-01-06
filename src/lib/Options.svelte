@@ -5,15 +5,13 @@
 	export let links = ['/', '/', '/', '/'];
 </script>
 
-<div class="center">
-	<div class="interests">
-		{#each titles as title, i}
-			<a href={links[i]} class="box">{title}</a>
-		{/each}
-	</div>
-
-	<Star />
+<div class="interests">
+	{#each titles as title, i}
+		<a href={links[i]} class="box">{title}</a>
+	{/each}
 </div>
+
+<Star />
 
 <style>
 	.center {
