@@ -1,27 +1,38 @@
-<div class="outer">
-	<div class="container">
-		<div class="element" />
+<svelte:head>
+	<style>
+		body {
+			background: var(--background-works);
+		}
+	</style>
+</svelte:head>
 
-		<div class="element" />
+<div class="container">
+	<h2>Digital</h2>
+
+	<div class="examples">
+		<div class="box">a</div>
+		<div class="box">a</div>
+		<div class="box">a</div>
 	</div>
 </div>
 
 <style>
-	.outer {
-		display: flex;
-		justify-content: center;
-	}
 	.container {
-		max-width: 50rem;
-		display: flex;
-		flex-direction: column;
-		gap: 2rem;
 		width: 100%;
+		padding: 1rem;
+		max-width: 50rem;
 	}
 
-	.element {
-		background-color: violet;
-		aspect-ratio: 2 / 1;
+	.examples {
+		display: flex;
+		gap: 2rem;
+		flex-direction: column;
+	}
+
+	.box {
+		background-color: lightgreen;
+		aspect-ratio: 3 / 1;
 		border-radius: 2rem;
+		padding: 1rem;
 	}
 </style>

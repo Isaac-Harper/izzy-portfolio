@@ -11,15 +11,7 @@
 	{/each}
 </div>
 
-<Star />
-
 <style>
-	.center {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-	}
 	.interests {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -47,6 +39,7 @@
 		text-decoration: none;
 		color: black;
 		white-space: pre-line;
+		text-align: center;
 	}
 
 	.box:visited {

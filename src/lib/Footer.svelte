@@ -6,15 +6,24 @@
 	}, 70);
 </script>
 
-<div class="container" style="background-color:hsl({hue}, 30%, 50%); opacity: 100%">
-	<img src="/instagram.svg" alt="insta" class="instagram" />
+<div class="outer">
+	<div class="container" style="background-color:hsl({hue}, 30%, 50%); opacity: 100%">
+		<img src="/instagram.svg" alt="insta" class="instagram" />
+	</div>
 </div>
 
 <style>
+	.outer {
+		padding: 1rem;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+
 	.container {
 		color: white;
 		height: 5rem;
-		margin: 1rem;
 		border-radius: 2rem;
 		display: flex;
 		justify-content: center;

@@ -35,6 +35,7 @@
 		display: block;
 		content: '';
 		transform: rotate(-35deg);
+		
 	}
 	.five-pointed-star:after {
 		position: absolute;

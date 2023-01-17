@@ -2,7 +2,7 @@
 	import Options from '$lib/Options.svelte';
 
 	const titles = ['art making', 'teaching', 'about me // resume', 'contact me'];
-	const links = ['/works', '/Teaching', '/About', '/Contact'];
+	const links = ['/works', '/teaching', '/about', '/contact'];
 </script>
 
 <svelte:head>
